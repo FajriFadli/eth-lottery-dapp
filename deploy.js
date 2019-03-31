@@ -28,5 +28,6 @@ const deploy = async () => {
       ", from address " +
       accounts[0]
   );
+  fs.writeFileSync("interface.txt", interface);
 };
 deploy();
